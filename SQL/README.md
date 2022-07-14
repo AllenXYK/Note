@@ -7,11 +7,12 @@
 - LIKE %
 
 
-|Function	|Description|
-|COUNT(*), COUNT(column)	|计数！COUNT(*) 统计数据行数，COUNT(column) 统计column非NULL的行数|
-|MIN(column)	|找column最小的一行|
-|MAX(column)	|找column最大的一行|
-|AVG(column)	|对column所有行取平均值|
+| Function	| Description |
+| ----------- | ----------- |
+| COUNT(*), COUNT(column)	| 计数！COUNT(*) 统计数据行数，COUNT(column) 统计column非NULL的行数 |
+| MIN(column)	| 找column最小的一行 |
+| MAX(column)	| 找column最大的一行 |
+| AVG(column)	| 对column所有行取平均值 |
 |SUM(column)	|对column所有行求和|
 
 
