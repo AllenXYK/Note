@@ -16,12 +16,17 @@ Tensorflow Caffe2 Keras Pytorch DyNet 等
 
 ### 神经元
 神经网络中的基础单元，相互连接组成神经网络的,一个神经元的功能是求得输入向量与权向量内积后，经过一个非线性传递函数得到一个标量的结果。
-$ t=f（w^TA+B)$
+t=f（w^TA+B)
 
 ### 感知机
 两层的神经网络，一个输出；简单的二分类模型，给定阈值，判断数据属于哪一部分
 
 ### 激活函数
-![激活函数]（C:\Users\Alen\Desktop\gitcode\Note\NLP\171542.png）
+![激活函数]（https://github.com/AllenXYK/Note/blob/main/NLP/171542.png）
+sigmoid：（0，1)
+tanh:(-1,1)
+relu:max(0,x)
+ELU:a(e^x-1)
+
 
 
