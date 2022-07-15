@@ -22,7 +22,7 @@ t=f（w^TA+B)
 两层的神经网络，一个输出；简单的二分类模型，给定阈值，判断数据属于哪一部分
 
 ### 激活函数
-![激活函数]（https://github.com/AllenXYK/Note/blob/main/NLP/171542.png）
+![激活函数](https://github.com/AllenXYK/Note/blob/main/NLP/171542.png)
 sigmoid：（0，1)
 tanh:(-1,1)
 relu:max(0,x)
