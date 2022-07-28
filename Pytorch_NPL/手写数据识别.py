@@ -67,9 +67,11 @@ def test():
     print('准确率：{}   损失率：{}'.format(np.mean(acc_list),np.mean(loss_list)))
 
 if __name__ == '__main__':
-    test()
-    j=5
-    for i in range(j):
-        train(i,j)
-        test()
-        #进行全连接的操作
+    # test()
+    # j=5
+    # for i in range(j):
+    #     train(i,j)
+    #     test()
+    #     #进行全连接的操作
+    for idx,(input,target) in enumerate(get_dataloader()):
+        print(idx,input,target)
